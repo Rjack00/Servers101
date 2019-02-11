@@ -1,22 +1,22 @@
 [
   {
-    "ID": 1,
-    "Company Name": "Jobber Group",
-    "Number of Employees": 11
+    "id": 1,
+    "companyName": "Jobber Group",
+    "numberOfEmployees": 11
   },
   {
-    "ID": 2,
-    "Company Name": "Stackery",
-    "Number of Employees": 32
+    "id": 2,
+    "companyName": "Stackery",
+    "numberOfEmployees": 32
   },
   {
-    "ID": 3,
-    "Company Name": "SALT",
-    "Number of Employees": 108
+    "id": 3,
+    "companyName": "SALT",
+    "numberOfEmployees": 108
   },
   {
-    "ID": 4,
-    "Company Name": "Four Winds Interactive",
-    "Number of Employees": 542
+    "id": 4,
+    "companyName": "Four Winds Interactive",
+    "numberOfEmployees": 542
   }
 ]
