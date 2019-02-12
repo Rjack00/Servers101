@@ -5,16 +5,16 @@ const port = 3000
 
 app.get('/', (req, res) => res.json({ companies }))
 
-function findById(data, id) {
-    for (let i = 0; i < data.length; i++){
-        if (data[i].id == id){
-            return data[i];
+function findById(companies, id) {
+    for (let i = 0; i < companies.length; i++){
+        if (companies[i].id == id){
+            return companies[i];
         }
     }
 }
 
 app.get('/:id', function(req, res){
-    const record = findById(req.params.id);
+    const record = findById(companies, req.params.id);
     if(!record){
         res.status = 404;
         res.json({
@@ -23,7 +23,7 @@ app.get('/:id', function(req, res){
             }
         });
         }
-    res.json({data: record})
+    res.json({companies: record})
 });
 
 
