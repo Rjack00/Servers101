@@ -1,21 +1,25 @@
 [
   {
     "id": 1,
+    "imageURL": "https://d112vpovu2xa8r.cloudfront.net/portal_coloradotechnology_curatasite_com/media/LWPi5vvEXmCRTkG.jpeg",
     "companyName": "Jobber Group",
     "numberOfEmployees": 11
   },
   {
     "id": 2,
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNEbGsYFqdLAMhKg7sUwkvbDulJchGXz-H5jsIErEovq-buu9",
     "companyName": "Stackery",
     "numberOfEmployees": 32
   },
   {
     "id": 3,
+    "imageURL": "https://fs.bitcoinmagazine.com/img/images/SALT.original.jpg",
     "companyName": "SALT",
     "numberOfEmployees": 108
   },
   {
     "id": 4,
+    "imageURL": "http://www.innovationews.com/content/uploads/2012/12/four-winds-interactive-logo.png",
     "companyName": "Four Winds Interactive",
     "numberOfEmployees": 542
   }
