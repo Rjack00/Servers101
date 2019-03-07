@@ -1,7 +1,15 @@
 const express = require('express')
+const cors = require('cors')
 const companies = require('./companies.json')
 const app = express()
 const port = process.env.PORT || 3000
+
+///////// CORS ////////////////////////
+
+app.use(cors())
+
+
+///////////////////////////////////////
 
 app.get('/', (req, res) => res.json({ companies }))
 
